@@ -173,7 +173,7 @@ code:
 
 highlight:
   on: true # true开启代码高亮
-  lineNum: false # true显示行号
+  lineNum: true # true显示行号
   theme: atom-dark
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
 # 支持主题：
@@ -201,7 +201,7 @@ mathjax:
 
 # Mermaid 支持
 mermaid:
-  on: ong
+  on: true
   cdn: //cdn.jsdelivr.net/npm/mermaid@8.4.2/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js
   options: # 更多配置信息可以参考 https://mermaidjs.github.io/#/mermaidAPI
